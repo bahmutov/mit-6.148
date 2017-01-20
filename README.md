@@ -11,6 +11,9 @@ npm run lint
 npm test
 ```
 
+There is continuous integration, see [.travis.yml](.travis.yml)
+and [https://travis-ci.org/bahmutov/mit-6.148](https://travis-ci.org/bahmutov/mit-6.148)
+
 For more info:
 
 * [https://glebbahmutov.com/blog/tags/javascript/](https://glebbahmutov.com/blog/tags/javascript/)
