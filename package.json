@@ -1,10 +1,12 @@
 {
   "name": "mit-6.148",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample code for MIT 6.148 guest lecture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --verbose --fix *.js",
+    "pretest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/mit-6.148/issues"
   },
-  "homepage": "https://github.com/bahmutov/mit-6.148#readme"
+  "homepage": "https://github.com/bahmutov/mit-6.148#readme",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
 }
