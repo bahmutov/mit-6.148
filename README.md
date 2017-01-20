@@ -8,6 +8,7 @@ Clone this repo then
 cd mit-6.148
 npm install
 npm run lint
+npm test
 ```
 
 For more info:
